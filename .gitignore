@@ -1,0 +1,13 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Maven
+arsw-observability-lab/target/
+
+# Logs generados por la aplicación
+arsw-observability-lab/logs/*.log
+
+# Mantener carpetas vacías con .gitkeep
+!.gitkeep
