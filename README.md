@@ -287,19 +287,6 @@ Observar: panel *Solicitudes HTTP*, panel *Pedidos creados*, logs con `|= "Pedid
 
 ---
 
-## 13. Evidencias de entrega
-
-Checklist de la entrega final del laboratorio:
-
-- [ ] Captura del estado de **Prometheus Targets** → `docs/img/05-prometheus-targets.png`
-- [ ] Captura del **dashboard de Grafana** → `docs/img/08-dashboard.png`
-- [ ] Evidencia de **métricas HTTP** → `docs/img/06-prometheus-query.png`
-- [ ] Evidencia de **métricas personalizadas** (`orders_created_total`, `orders_failed_total`) → `docs/img/02-actuator-prometheus.png`
-- [ ] Evidencia de **logs consultados en Loki** → `docs/img/09-loki-explore.png`
-- [ ] **Análisis de un incidente simulado** (sección 11) → `docs/img/10-incidente-errores.png`
-- [ ] **Propuesta de tres alertas** (sección 12)
-
----
 
 ## Resumen de ejecución completa
 
