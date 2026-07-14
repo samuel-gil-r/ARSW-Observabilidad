@@ -143,9 +143,7 @@ orders_failed_total
 
 **Evidencia:**
 
-![Prometheus Targets UP](docs/img/05-prometheus-targets.png)
-
-![Consulta PromQL](docs/img/06-prometheus-query.png)
+<img width="1453" height="95" alt="image" src="https://github.com/user-attachments/assets/98e86669-8f55-4c81-b82f-204eb0be5bed" />
 
 ---
 
@@ -174,7 +172,7 @@ orders_failed_total
 
 **Evidencia:**
 
-![Data sources en Grafana](docs/img/07-datasources.png)
+<img width="1486" height="671" alt="image" src="https://github.com/user-attachments/assets/4671e137-d917-4bc5-9b63-cf22134e3216" />
 
 ---
 
@@ -200,7 +198,8 @@ orders_failed_total
 
 **Evidencia:**
 
-![Dashboard completo](docs/img/08-dashboard.png)
+<img width="1173" height="708" alt="image" src="https://github.com/user-attachments/assets/5ab87b24-3605-4eef-810c-8ea298eb4752" />
+
 
 ---
 
@@ -223,7 +222,7 @@ orders_failed_total
 
 **Evidencia:**
 
-![Logs en Loki Explore](docs/img/09-loki-explore.png)
+<img width="571" height="205" alt="image" src="https://github.com/user-attachments/assets/6e0ec57b-ab97-4eea-b000-4b295e1b4f54" />
 
 ---
 
@@ -265,7 +264,6 @@ Invoke-RestMethod -Uri http://localhost:8081/orders -Method Post -ContentType "a
 
 Observar: panel *Solicitudes HTTP*, panel *Pedidos creados*, logs con `|= "Pedido"`.
 
-![Actividad de pedidos](docs/img/12-incidente-pedidos.png)
 
 ---
 
@@ -281,9 +279,8 @@ Observar: panel *Solicitudes HTTP*, panel *Pedidos creados*, logs con `|= "Pedid
 | Errores HTTP 500 | `sum(rate(http_server_requests_seconds_count{status="500"}[1m])) > 0` | La aplicación está generando errores internos |
 | Latencia elevada | `(sum(rate(http_server_requests_seconds_sum[1m])) / sum(rate(http_server_requests_seconds_count[1m]))) > 1` | La latencia promedio supera un segundo |
 
-**Evidencia (opcional, si se configuran en Grafana):**
 
-![Alertas en Grafana](docs/img/13-alertas.png)
+<img width="1214" height="682" alt="image" src="https://github.com/user-attachments/assets/96690050-c4c9-4a23-9abc-31a0d9191fda" />
 
 ---
 
