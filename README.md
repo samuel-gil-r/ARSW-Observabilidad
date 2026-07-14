@@ -68,9 +68,8 @@ curl.exe http://localhost:8081/actuator/prometheus
 
 **Evidencia:**
 
-![Health check UP](docs/img/01-health.png)
+<img width="1296" height="201" alt="image" src="https://github.com/user-attachments/assets/f3148ceb-4c01-4ea9-8199-09ffec088388" />
 
-![Métricas en /actuator/prometheus](docs/img/02-actuator-prometheus.png)
 
 ---
 
@@ -90,10 +89,6 @@ curl.exe http://localhost:8081/orders/simulate-error
 ```
 
 Repita cada comando varias veces para acumular datos.
-
-**Evidencia:**
-
-![Tráfico generado](docs/img/03-trafico.png)
 
 ---
 
@@ -115,7 +110,7 @@ Deben aparecer: `arsw-prometheus`, `arsw-grafana`, `arsw-loki`, `arsw-promtail`.
 
 **Evidencia:**
 
-![Contenedores corriendo](docs/img/04-docker-ps.png)
+<img width="1209" height="199" alt="image" src="https://github.com/user-attachments/assets/3175a039-36b7-4f59-b656-a8d465ffa3d7" />
 
 ---
 
